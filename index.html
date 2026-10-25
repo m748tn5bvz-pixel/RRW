@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Road Rash Web</title>
+    <style>
+      html, body { margin: 0; height: 100%; background: #0d0f14; color: #e8e6e3; font: 13px/1.4 system-ui, sans-serif; overflow: hidden; }
+      canvas { display: block; }
+      #hud { position: fixed; top: 12px; left: 12px; padding: 10px 12px; background: rgba(10, 12, 16, 0.72); border-radius: 8px; min-width: 240px; }
+      #hud select { width: 100%; margin: 4px 0 8px; font: inherit; }
+      #hud .row { display: flex; justify-content: space-between; gap: 16px; }
+      #hud .muted { color: #9aa0a6; }
+      #help { position: fixed; top: 12px; right: 12px; max-width: 300px; color: #9aa0a6; background: rgba(10, 12, 16, 0.6); padding: 6px 10px; border-radius: 6px; }
+      #error { position: fixed; inset: 0; display: none; place-items: center; text-align: center; padding: 24px; }
+      #banner { position: fixed; left: 0; right: 0; top: 22%; text-align: center; font: 64px Badloc, Impact, sans-serif; color: #fff; text-shadow: 3px 3px 0 #000; pointer-events: none; display: none; }
+      #result { position: fixed; inset: 0; display: none; place-items: center; background: #000; }
+      #result video, #result img { max-width: 100vw; max-height: 100vh; width: 100vw; height: 100vh; object-fit: contain; image-rendering: pixelated; }
+      #result .caption { position: fixed; left: 0; right: 0; bottom: 6%; text-align: center; font: 40px Badloc, Impact, sans-serif; color: #fff; text-shadow: 3px 3px 0 #000; }
+      code { background: #1d2129; padding: 2px 6px; border-radius: 4px; }
+      /* Menús (src/menu.ts): escenario de 640×480 escalado, textos con sombra negra a 2 px como el original.
+         CreateFontA pide la altura de la celda (72, 32, 24): el em es esa altura · unitsPerEm / (winAscent +
+         winDescent) = 0,808 (Badloc), 0,773 (Futura Regular), 0,776 (Bold); la línea mide la celda. */
+      #menu { position: fixed; inset: 0; background: #000; display: none; z-index: 10; user-select: none; }
+      #menu .stage { position: absolute; left: 50%; top: 50%; width: 640px; height: 480px; overflow: hidden; transform-origin: 50% 50%; }
+      #menu .bg { position: absolute; inset: 0; background: #000 no-repeat 0 0; image-rendering: pixelated; }
+      #menu .card { position: absolute; left: 243px; top: 0; width: 397px; height: 480px; display: none; image-rendering: pixelated; }
+      #menu .video { position: absolute; inset: 0; width: 640px; height: 480px; object-fit: contain; background: #000; image-rendering: pixelated; z-index: 2; }
+      #menu .t { position: absolute; white-space: pre-line; text-shadow: 2px 2px 0 #000; }
+      #menu .title { left: 22px; top: 40px; font: 58px/72px "RR Badloc", Impact, sans-serif; color: #ff6432; white-space: nowrap; }
+      #menu .desc { left: 6px; top: 120px; max-width: 300px; padding: 0 8px; text-align: center; font: 24.7px/32px "RR Futura", "Arial Narrow", sans-serif; color: #deffF0; }
+      #menu .wide { left: 0; width: 640px; display: grid; place-items: center; text-align: center; font: 24.7px/32px "RR Futura", "Arial Narrow", sans-serif; color: #deffF0; }
+      #menu .button { position: absolute; cursor: pointer; }
+      #menu .button .t { left: 23px; top: 0; right: 4px; font: 18.6px/24px "RR Futura Bold", "Arial Narrow", sans-serif; }
+      #menu .button .arrow { left: 3px; top: 2px; right: auto; color: #ffff00; font: 20px sans-serif; }
+    </style>
+  </head>
+  <body>
+    <div id="hud">
+      <div class="row"><span class="muted">Segmento</span><span id="seg">–</span></div>
+      <div class="row"><span class="muted">Paso</span><span id="step">–</span></div>
+      <div class="row"><span class="muted">Moto</span><span id="curve">–</span></div>
+      <div class="row"><span class="muted">Velocidad</span><span id="speed">–</span></div>
+      <div class="row"><span class="muted">Posición</span><span id="place">–</span></div>
+      <div class="row"><span class="muted">Meta</span><span id="finish">–</span></div>
+      <div class="row"><span class="muted">Música (N/B)</span><span id="music">pulsa una tecla</span></div>
+      <div class="row"><span class="muted">Distancia (V)</span><span id="draw">–</span></div>
+      <div class="row"><span class="muted">GPU</span><span id="backend">–</span></div>
+    </div>
+    <div id="help">W acelerar · S frenar · A/D girar · Inicio/RePág inclinarse · Enter patada · Espacio o Insert puñetazo · P/Esc pausa (Q: menú) · R repetir carrera · N otra música · B música · V distancia · C tablero · M vista elevada · H panel</div>
+    <div id="banner"></div>
+    <div id="result"><div class="caption"></div></div>
+    <div id="menu"></div>
+    <div id="error">
+      <div>
+        <p>No hay datos importados.</p>
+        <p>Ejecuta <code>npm run import -- "C:\Program Files (x86)\MagiPacks\Road Rash"</code> y recarga.</p>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

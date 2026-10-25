@@ -1,0 +1,3229 @@
+{
+  "generatedAt": "2026-10-25T14:45:02.363Z",
+  "courses": [
+    {
+      "name": "CANYN",
+      "title": "Pacific Coast Highway",
+      "horizon": "PCH",
+      "file": "/data/courses/canyn.json",
+      "segments": 18,
+      "steps": 6043
+    },
+    {
+      "name": "CITY",
+      "title": "The City",
+      "horizon": "CITY",
+      "file": "/data/courses/city.json",
+      "segments": 15,
+      "steps": 5886
+    },
+    {
+      "name": "HIWAY",
+      "title": "Sierra Nevada",
+      "horizon": "SIERRA",
+      "file": "/data/courses/hiway.json",
+      "segments": 26,
+      "steps": 7060
+    },
+    {
+      "name": "MEDLY",
+      "title": "The Peninsula",
+      "horizon": "PENIN",
+      "file": "/data/courses/medly.json",
+      "segments": 35,
+      "steps": 7244
+    },
+    {
+      "name": "NAPA",
+      "title": "Napa Valley",
+      "horizon": "NAPA",
+      "file": "/data/courses/napa.json",
+      "segments": 15,
+      "steps": 7949
+    }
+  ],
+  "images": [
+    "/images/bikes/rat/banzai.jpg",
+    "/images/bikes/rat/corsair.jpg",
+    "/images/bikes/rat/kamikaze.jpg",
+    "/images/bikes/rat/killer.jpg",
+    "/images/bikes/rat/perro.jpg",
+    "/images/bikes/sport/diablo.jpg",
+    "/images/bikes/sport/dmg.jpg",
+    "/images/bikes/sport/kamikaze.jpg",
+    "/images/bikes/sport/perro.jpg",
+    "/images/bikes/sport/stiletto.jpg",
+    "/images/bikes/super/banzai.jpg",
+    "/images/bikes/super/corsair.jpg",
+    "/images/bikes/super/diablo.jpg",
+    "/images/bikes/super/kamikaze.jpg",
+    "/images/bikes/super/stiletto.jpg",
+    "/images/chars/axle-f.jpg",
+    "/images/chars/axle-h.jpg",
+    "/images/chars/axle-n.jpg",
+    "/images/chars/bose-f.jpg",
+    "/images/chars/bose-h.jpg",
+    "/images/chars/bose-n.jpg",
+    "/images/chars/cydney-f.jpg",
+    "/images/chars/cydney-h.jpg",
+    "/images/chars/cydney-n.jpg",
+    "/images/chars/jim-f.jpg",
+    "/images/chars/jim-h.jpg",
+    "/images/chars/jim-n.jpg",
+    "/images/chars/jon-f.jpg",
+    "/images/chars/jon-h.jpg",
+    "/images/chars/jon-n.jpg",
+    "/images/chars/manomano.jpg",
+    "/images/chars/mike-f.jpg",
+    "/images/chars/mike-h.jpg",
+    "/images/chars/mike-n.jpg",
+    "/images/chars/pearl-f.jpg",
+    "/images/chars/pearl-h.jpg",
+    "/images/chars/pearl-n.jpg",
+    "/images/chars/rhonda-f.jpg",
+    "/images/chars/rhonda-h.jpg",
+    "/images/chars/rhonda-n.jpg",
+    "/images/credits.jpg",
+    "/images/main.jpg",
+    "/images/matte.jpg",
+    "/images/olleys.jpg",
+    "/images/panzer.jpg",
+    "/images/postcard/city.jpg",
+    "/images/postcard/klub.jpg",
+    "/images/postcard/napa.jpg",
+    "/images/postcard/pch.jpg",
+    "/images/postcard/penin.jpg",
+    "/images/postcard/qcity.jpg",
+    "/images/postcard/qnapa.jpg",
+    "/images/postcard/qpch.jpg",
+    "/images/postcard/qpenin.jpg",
+    "/images/postcard/qsierra.jpg",
+    "/images/postcard/qsierrar.jpg",
+    "/images/postcard/resta.jpg",
+    "/images/postcard/restb.jpg",
+    "/images/postcard/sierra.jpg",
+    "/images/postcard/sierrar.jpg",
+    "/images/postcard.jpg",
+    "/images/restroom/rest1.jpg",
+    "/images/restroom/rest2.jpg",
+    "/images/restroom/rest3.jpg",
+    "/images/restroom/rest4.jpg",
+    "/images/restroom/rest5.jpg",
+    "/images/restroom/rest6.jpg",
+    "/images/results/bust1.jpg",
+    "/images/results/bust2.jpg",
+    "/images/results/bust3.jpg",
+    "/images/results/bust4.jpg",
+    "/images/results/bust5.jpg",
+    "/images/results/bust6.jpg",
+    "/images/results/finale.jpg",
+    "/images/results/level1.jpg",
+    "/images/results/level2.jpg",
+    "/images/results/level3.jpg",
+    "/images/results/level4.jpg",
+    "/images/results/lose1.jpg",
+    "/images/results/lose2.jpg",
+    "/images/results/lose3.jpg",
+    "/images/results/lose4.jpg",
+    "/images/results/lose5.jpg",
+    "/images/results/lose6.jpg",
+    "/images/results/win1.jpg",
+    "/images/results/win2.jpg",
+    "/images/results/win3.jpg",
+    "/images/results/win4.jpg",
+    "/images/results/win5.jpg",
+    "/images/results/win6.jpg",
+    "/images/results/wreck1.jpg",
+    "/images/results/wreck2.jpg",
+    "/images/results/wreck3.jpg",
+    "/images/results/wreck4.jpg",
+    "/images/results/wreck5.jpg",
+    "/images/results/wreck6.jpg",
+    "/images/showroom/rat/banzai.jpg",
+    "/images/showroom/rat/bikes.jpg",
+    "/images/showroom/rat/corsair.jpg",
+    "/images/showroom/rat/kamikaze.jpg",
+    "/images/showroom/rat/killer.jpg",
+    "/images/showroom/rat/perro.jpg",
+    "/images/showroom/sport/bikes.jpg",
+    "/images/showroom/sport/diablo.jpg",
+    "/images/showroom/sport/dmg.jpg",
+    "/images/showroom/sport/kamikaze.jpg",
+    "/images/showroom/sport/perro.jpg",
+    "/images/showroom/sport/stiletto.jpg",
+    "/images/showroom/super/banzai.jpg",
+    "/images/showroom/super/bikes.jpg",
+    "/images/showroom/super/corsair.jpg",
+    "/images/showroom/super/diablo.jpg",
+    "/images/showroom/super/kamikaze.jpg",
+    "/images/showroom/super/stiletto.jpg",
+    "/images/splash.jpg",
+    "/images/street/home.jpg",
+    "/images/street/klub.jpg",
+    "/images/street/olley.jpg",
+    "/images/street.jpg"
+  ],
+  "audio": [
+    "/audio/effects/af1_eek.wav",
+    "/audio/effects/am1_dooo.wav",
+    "/audio/effects/bkm1_hey.wav",
+    "/audio/effects/bkm1_huh.wav",
+    "/audio/effects/bkm2_hld.wav",
+    "/audio/effects/bkm4_pty.wav",
+    "/audio/effects/bkm4_rum.wav",
+    "/audio/effects/bkm4_wai.wav",
+    "/audio/effects/bkw1_don.wav",
+    "/audio/effects/bkw2_bit.wav",
+    "/audio/effects/bkw3_stp.wav",
+    "/audio/effects/bmwlong.wav",
+    "/audio/effects/bounce.wav",
+    "/audio/effects/bsm1_tak.wav",
+    "/audio/effects/bsm1_wat.wav",
+    "/audio/effects/bsm2_woa.wav",
+    "/audio/effects/bsm3_wha.wav",
+    "/audio/effects/bsw1_huh.wav",
+    "/audio/effects/bsw1_no.wav",
+    "/audio/effects/bsw2_aaa.wav",
+    "/audio/effects/bsw3_hey.wav",
+    "/audio/effects/chainimp.wav",
+    "/audio/effects/clubimpa.wav",
+    "/audio/effects/cm1_heym.wav",
+    "/audio/effects/cm3_arrg.wav",
+    "/audio/effects/crashhar.wav",
+    "/audio/effects/crashlit.wav",
+    "/audio/effects/crashmed.wav",
+    "/audio/effects/cw_back.wav",
+    "/audio/effects/dm_holys.wav",
+    "/audio/effects/dm_usob.wav",
+    "/audio/effects/engcar11.wav",
+    "/audio/effects/engnitro.wav",
+    "/audio/effects/engother.wav",
+    "/audio/effects/engrat.wav",
+    "/audio/effects/engsport.wav",
+    "/audio/effects/engsuper.wav",
+    "/audio/effects/engtunne.wav",
+    "/audio/effects/fcyc_wat.wav",
+    "/audio/effects/fg1_watc.wav",
+    "/audio/effects/fg2_eek.wav",
+    "/audio/effects/fm_slowd.wav",
+    "/audio/effects/footstep.wav",
+    "/audio/effects/f_yeah.wav",
+    "/audio/effects/gruntf1_.wav",
+    "/audio/effects/gruntf2_.wav",
+    "/audio/effects/gruntf3_.wav",
+    "/audio/effects/gruntm1_.wav",
+    "/audio/effects/gruntm2_.wav",
+    "/audio/effects/gruntm3_.wav",
+    "/audio/effects/gruntm4_.wav",
+    "/audio/effects/gruntm5_.wav",
+    "/audio/effects/hf_help.wav",
+    "/audio/effects/jf_no.wav",
+    "/audio/effects/jm_aiie.wav",
+    "/audio/effects/kick_mw4.wav",
+    "/audio/effects/m_yeah.wav",
+    "/audio/effects/ol_aaa.wav",
+    "/audio/effects/ol_make.wav",
+    "/audio/effects/punchhea.wav",
+    "/audio/effects/punchlig.wav",
+    "/audio/effects/ridersli.wav",
+    "/audio/effects/siren.wav",
+    "/audio/effects/sirenfst.wav",
+    "/audio/effects/sk1_dude.wav",
+    "/audio/effects/sk1_eatt.wav",
+    "/audio/effects/skidoffr.wav",
+    "/audio/effects/skidonnr.wav",
+    "/audio/effects/swishcha.wav",
+    "/audio/effects/swishgen.wav",
+    "/audio/effects/tour_aaa.wav",
+    "/audio/effects/tour_bac.wav",
+    "/audio/music/hb_pass.wav",
+    "/audio/music/hb_trip.wav",
+    "/audio/music/mm_dino.wav",
+    "/audio/music/p_bridge.wav",
+    "/audio/music/p_jessie.wav",
+    "/audio/music/p_pansy.wav",
+    "/audio/music/sd_duel.wav",
+    "/audio/music/sd_train.wav",
+    "/audio/music/sg_kicks.wav",
+    "/audio/music/sg_outsh.wav",
+    "/audio/music/sg_rusty.wav",
+    "/audio/music/sg_super.wav",
+    "/audio/music/t_auto.wav",
+    "/audio/music/t_teeth.wav"
+  ],
+  "music": [
+    "/audio/music/grunge1.mid",
+    "/audio/music/grunge2.mid",
+    "/audio/music/grunge3.mid",
+    "/audio/music/grunge4.mid",
+    "/audio/music/grunge5.mid",
+    "/audio/music/klown.mid",
+    "/audio/music/sbkgrng1.mid",
+    "/audio/music/sbkgrng2.mid",
+    "/audio/music/sbkgrng3.mid",
+    "/audio/music/sbkgrng4.mid",
+    "/audio/music/sbkgrng5.mid"
+  ],
+  "soundfonts": [
+    "/audio/music/grunge1.sf2",
+    "/audio/music/grunge2.sf2",
+    "/audio/music/grunge3.sf2",
+    "/audio/music/grunge4.sf2",
+    "/audio/music/grunge5.sf2",
+    "/audio/music/rrdrums.sf2"
+  ],
+  "videos": [
+    "/video/busted1.webm",
+    "/video/busted2.webm",
+    "/video/busted3.webm",
+    "/video/busted4.webm",
+    "/video/busted5.webm",
+    "/video/busted6.webm",
+    "/video/intro.webm",
+    "/video/lose1.webm",
+    "/video/lose10.webm",
+    "/video/lose2.webm",
+    "/video/lose3.webm",
+    "/video/lose4.webm",
+    "/video/lose5.webm",
+    "/video/lose6.webm",
+    "/video/lose7.webm",
+    "/video/lose8.webm",
+    "/video/lose9.webm",
+    "/video/start1.webm",
+    "/video/start2.webm",
+    "/video/start3.webm",
+    "/video/start4.webm",
+    "/video/start5.webm",
+    "/video/start6.webm",
+    "/video/win1.webm",
+    "/video/win2.webm",
+    "/video/win3.webm",
+    "/video/win4.webm",
+    "/video/win5.webm",
+    "/video/win6.webm",
+    "/video/wreck1.webm",
+    "/video/wreck2.webm",
+    "/video/wreck3.webm",
+    "/video/wreck4.webm",
+    "/video/wreck5.webm",
+    "/video/wreck6.webm"
+  ],
+  "pending": [
+    {
+      "file": "DATA/BIKERS/TEMPLATE.MIP",
+      "reason": "uso aún desconocido"
+    }
+  ],
+  "font": "/fonts/badloc.ttf",
+  "menuFonts": {
+    "regular": "/fonts/futura-regular.ttf",
+    "bold": "/fonts/futura-bold.ttf",
+    "demi": "/fonts/futura-demi.ttf"
+  },
+  "sprites": {
+    "riders": {
+      "frames": "/sprites/riders/frames.json",
+      "textures": [
+        "/sprites/riders/rider_00.png",
+        "/sprites/riders/rider_01.png",
+        "/sprites/riders/rider_02.png",
+        "/sprites/riders/rider_03.png",
+        "/sprites/riders/rider_04.png",
+        "/sprites/riders/rider_05.png",
+        "/sprites/riders/rider_06.png",
+        "/sprites/riders/rider_07.png",
+        "/sprites/riders/rider_08.png",
+        "/sprites/riders/rider_09.png",
+        "/sprites/riders/rider_10.png",
+        "/sprites/riders/rider_11.png",
+        "/sprites/riders/rider_12.png",
+        "/sprites/riders/rider_13.png",
+        "/sprites/riders/rider_14.png"
+      ],
+      "shadow": "/sprites/riders/shadow",
+      "cop": "/sprites/riders/cop",
+      "copShadow": "/sprites/riders/cop_shadow",
+      "anims": "/sprites/riders/anims.json",
+      "copAnims": "/sprites/riders/cop_anims.json"
+    },
+    "families": {
+      "1": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_001_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_001_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_001_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_001_3_0.png"
+          ]
+        ],
+        "heights": [
+          1440,
+          1280,
+          800,
+          16
+        ],
+        "sidewalk": []
+      },
+      "3": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_003_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_003_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_003_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_003_3_0.png"
+          ]
+        ],
+        "heights": [
+          1440,
+          1280,
+          800,
+          16
+        ],
+        "sidewalk": []
+      },
+      "7": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_007_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_007_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_007_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_007_3_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_007_4_0.png",
+            "/sprites/terrain/fam_007_4_1.png",
+            "/sprites/terrain/fam_007_4_2.png"
+          ]
+        ],
+        "heights": [
+          1440,
+          1280,
+          800,
+          16,
+          0
+        ],
+        "sidewalk": []
+      },
+      "10": {
+        "atlas": "/sprites/families/fam_010",
+        "objects": 1,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_010_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_010_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_010_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_010_3_0.png"
+          ]
+        ],
+        "heights": [
+          800,
+          720,
+          16,
+          1040
+        ],
+        "sidewalk": []
+      },
+      "11": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_011_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_011_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_011_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_011_3_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_011_4_0.png"
+          ]
+        ],
+        "heights": [
+          640,
+          1040,
+          720,
+          16,
+          800
+        ],
+        "sidewalk": []
+      },
+      "12": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_012_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_012_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_012_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_012_3_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_012_4_0.png"
+          ]
+        ],
+        "heights": [
+          720,
+          560,
+          720,
+          16,
+          720
+        ],
+        "sidewalk": []
+      },
+      "15": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_015_0_0.png",
+            "/sprites/terrain/fam_015_0_1.png"
+          ],
+          [
+            "/sprites/terrain/fam_015_1_0.png",
+            "/sprites/terrain/fam_015_1_1.png"
+          ]
+        ],
+        "heights": [
+          0,
+          0
+        ],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_015_walk_0_0.png"
+          ]
+        ]
+      },
+      "17": {
+        "atlas": "/sprites/families/fam_017",
+        "objects": 2,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_017_0_0.png",
+            "/sprites/terrain/fam_017_0_1.png"
+          ],
+          [
+            "/sprites/terrain/fam_017_1_0.png",
+            "/sprites/terrain/fam_017_1_1.png"
+          ]
+        ],
+        "heights": [
+          0,
+          0
+        ],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_017_walk_0_0.png"
+          ]
+        ]
+      },
+      "18": {
+        "atlas": "/sprites/families/fam_018",
+        "objects": 4,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_018_0_0.png",
+            "/sprites/terrain/fam_018_0_1.png"
+          ],
+          [
+            "/sprites/terrain/fam_018_1_0.png",
+            "/sprites/terrain/fam_018_1_1.png"
+          ]
+        ],
+        "heights": [
+          0,
+          0
+        ],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_018_walk_0_0.png"
+          ]
+        ]
+      },
+      "22": {
+        "atlas": "/sprites/families/fam_022",
+        "objects": 23,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "23": {
+        "atlas": "/sprites/families/fam_023",
+        "objects": 3,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_023_0_0.png",
+            "/sprites/terrain/fam_023_0_1.png",
+            "/sprites/terrain/fam_023_0_2.png"
+          ],
+          [
+            "/sprites/terrain/fam_023_1_0.png",
+            "/sprites/terrain/fam_023_1_1.png",
+            "/sprites/terrain/fam_023_1_2.png"
+          ],
+          [
+            "/sprites/terrain/fam_023_2_0.png",
+            "/sprites/terrain/fam_023_2_1.png",
+            "/sprites/terrain/fam_023_2_2.png"
+          ]
+        ],
+        "heights": [
+          0,
+          0,
+          0
+        ],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_023_walk_0_0.png",
+            null,
+            "/sprites/terrain/fam_023_walk_0_2.png"
+          ]
+        ]
+      },
+      "24": {
+        "atlas": "/sprites/families/fam_024",
+        "objects": 22,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "26": {
+        "atlas": "/sprites/families/fam_026",
+        "objects": 12,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "27": {
+        "atlas": "/sprites/families/fam_027",
+        "objects": 13,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "28": {
+        "atlas": "/sprites/families/fam_028",
+        "objects": 14,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "29": {
+        "atlas": "/sprites/families/fam_029",
+        "objects": 15,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "30": {
+        "atlas": "/sprites/families/fam_030",
+        "objects": 24,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "31": {
+        "atlas": "/sprites/families/fam_031",
+        "objects": 16,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_031_walk_0_0.png"
+          ]
+        ]
+      },
+      "32": {
+        "atlas": "/sprites/families/fam_032",
+        "objects": 16,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "36": {
+        "atlas": "/sprites/families/fam_036",
+        "objects": 34,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_036_walk_0_0.png",
+            "/sprites/terrain/fam_036_walk_0_1.png",
+            "/sprites/terrain/fam_036_walk_0_2.png",
+            "/sprites/terrain/fam_036_walk_0_3.png"
+          ]
+        ]
+      },
+      "37": {
+        "atlas": "/sprites/families/fam_037",
+        "objects": 23,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_037_walk_0_0.png",
+            "/sprites/terrain/fam_037_walk_0_1.png",
+            "/sprites/terrain/fam_037_walk_0_2.png",
+            "/sprites/terrain/fam_037_walk_0_3.png"
+          ]
+        ]
+      },
+      "38": {
+        "atlas": "/sprites/families/fam_038",
+        "objects": 13,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_038_walk_0_0.png",
+            "/sprites/terrain/fam_038_walk_0_1.png",
+            "/sprites/terrain/fam_038_walk_0_2.png",
+            "/sprites/terrain/fam_038_walk_0_3.png"
+          ]
+        ]
+      },
+      "39": {
+        "atlas": "/sprites/families/fam_039",
+        "objects": 11,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_039_walk_0_0.png",
+            "/sprites/terrain/fam_039_walk_0_1.png",
+            "/sprites/terrain/fam_039_walk_0_2.png",
+            "/sprites/terrain/fam_039_walk_0_3.png"
+          ]
+        ]
+      },
+      "41": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_041_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_041_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_041_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_041_3_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_041_4_0.png"
+          ]
+        ],
+        "heights": [
+          800,
+          800,
+          1040,
+          16,
+          1040
+        ],
+        "sidewalk": []
+      },
+      "42": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_042_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_042_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_042_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_042_3_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_042_4_0.png"
+          ]
+        ],
+        "heights": [
+          800,
+          800,
+          960,
+          16,
+          960
+        ],
+        "sidewalk": []
+      },
+      "52": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_052_0_0.png",
+            "/sprites/terrain/fam_052_0_1.png",
+            "/sprites/terrain/fam_052_0_2.png"
+          ]
+        ],
+        "heights": [
+          0
+        ],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_052_walk_0_0.png",
+            null,
+            "/sprites/terrain/fam_052_walk_0_2.png"
+          ]
+        ]
+      },
+      "54": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            null
+          ],
+          [
+            "/sprites/terrain/fam_054_1_0.png",
+            "/sprites/terrain/fam_054_1_1.png",
+            "/sprites/terrain/fam_054_1_2.png"
+          ],
+          [
+            "/sprites/terrain/fam_054_2_0.png",
+            "/sprites/terrain/fam_054_2_1.png",
+            "/sprites/terrain/fam_054_2_2.png"
+          ],
+          [
+            "/sprites/terrain/fam_054_3_0.png",
+            "/sprites/terrain/fam_054_3_1.png",
+            "/sprites/terrain/fam_054_3_2.png"
+          ],
+          [
+            "/sprites/terrain/fam_054_4_0.png",
+            "/sprites/terrain/fam_054_4_1.png",
+            "/sprites/terrain/fam_054_4_2.png"
+          ],
+          [
+            null
+          ],
+          [
+            "/sprites/terrain/fam_054_6_0.png",
+            "/sprites/terrain/fam_054_6_1.png",
+            "/sprites/terrain/fam_054_6_2.png"
+          ]
+        ],
+        "heights": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_054_walk_0_0.png",
+            "/sprites/terrain/fam_054_walk_0_1.png",
+            "/sprites/terrain/fam_054_walk_0_2.png"
+          ],
+          [
+            "/sprites/terrain/fam_054_walk_1_0.png",
+            "/sprites/terrain/fam_054_walk_1_1.png",
+            "/sprites/terrain/fam_054_walk_1_2.png"
+          ]
+        ]
+      },
+      "57": {
+        "atlas": "/sprites/families/fam_057",
+        "objects": 1,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_057_0_0.png",
+            "/sprites/terrain/fam_057_0_1.png",
+            "/sprites/terrain/fam_057_0_2.png"
+          ],
+          [
+            "/sprites/terrain/fam_057_1_0.png",
+            "/sprites/terrain/fam_057_1_1.png",
+            "/sprites/terrain/fam_057_1_2.png"
+          ]
+        ],
+        "heights": [
+          0,
+          0
+        ],
+        "sidewalk": []
+      },
+      "61": {
+        "atlas": "/sprites/families/fam_061",
+        "objects": 32,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_061_walk_0_0.png",
+            "/sprites/terrain/fam_061_walk_0_1.png",
+            "/sprites/terrain/fam_061_walk_0_2.png",
+            "/sprites/terrain/fam_061_walk_0_3.png"
+          ]
+        ]
+      },
+      "62": {
+        "atlas": "/sprites/families/fam_062",
+        "objects": 20,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_062_walk_0_0.png",
+            "/sprites/terrain/fam_062_walk_0_1.png",
+            "/sprites/terrain/fam_062_walk_0_2.png",
+            "/sprites/terrain/fam_062_walk_0_3.png"
+          ]
+        ]
+      },
+      "63": {
+        "atlas": "/sprites/families/fam_063",
+        "objects": 32,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_063_walk_0_0.png",
+            "/sprites/terrain/fam_063_walk_0_1.png",
+            "/sprites/terrain/fam_063_walk_0_2.png",
+            "/sprites/terrain/fam_063_walk_0_3.png"
+          ]
+        ]
+      },
+      "65": {
+        "atlas": "/sprites/families/fam_065",
+        "objects": 15,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "66": {
+        "atlas": "/sprites/families/fam_066",
+        "objects": 18,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_066_0_0.png",
+            "/sprites/terrain/fam_066_0_1.png",
+            "/sprites/terrain/fam_066_0_2.png"
+          ],
+          [
+            "/sprites/terrain/fam_066_1_0.png",
+            "/sprites/terrain/fam_066_1_1.png",
+            "/sprites/terrain/fam_066_1_2.png"
+          ],
+          [
+            "/sprites/terrain/fam_066_2_0.png",
+            "/sprites/terrain/fam_066_2_1.png",
+            "/sprites/terrain/fam_066_2_2.png"
+          ]
+        ],
+        "heights": [
+          0,
+          0,
+          0
+        ],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_066_walk_0_0.png",
+            null,
+            "/sprites/terrain/fam_066_walk_0_2.png"
+          ]
+        ]
+      },
+      "68": {
+        "atlas": "/sprites/families/fam_068",
+        "objects": 10,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_068_0_0.png",
+            "/sprites/terrain/fam_068_0_1.png",
+            "/sprites/terrain/fam_068_0_2.png"
+          ]
+        ],
+        "heights": [
+          0
+        ],
+        "sidewalk": []
+      },
+      "69": {
+        "atlas": "/sprites/families/fam_069",
+        "objects": 15,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "77": {
+        "atlas": "/sprites/families/fam_077",
+        "objects": 2,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_077_0_0.png",
+            "/sprites/terrain/fam_077_0_1.png"
+          ],
+          [
+            "/sprites/terrain/fam_077_1_0.png",
+            "/sprites/terrain/fam_077_1_1.png"
+          ]
+        ],
+        "heights": [
+          0,
+          0
+        ],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_077_walk_0_0.png"
+          ]
+        ]
+      },
+      "81": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_081_0_0.png",
+            "/sprites/terrain/fam_081_0_1.png"
+          ],
+          [
+            "/sprites/terrain/fam_081_1_0.png",
+            "/sprites/terrain/fam_081_1_1.png"
+          ]
+        ],
+        "heights": [
+          0,
+          0
+        ],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_081_walk_0_0.png"
+          ]
+        ]
+      },
+      "85": {
+        "atlas": "/sprites/families/fam_085",
+        "objects": 8,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "86": {
+        "atlas": "/sprites/families/fam_086",
+        "objects": 21,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "87": {
+        "atlas": "/sprites/families/fam_087",
+        "objects": 27,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "92": {
+        "atlas": "/sprites/families/fam_092",
+        "objects": 2,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_092_0_0.png",
+            "/sprites/terrain/fam_092_0_1.png"
+          ],
+          [
+            "/sprites/terrain/fam_092_1_0.png",
+            "/sprites/terrain/fam_092_1_1.png"
+          ]
+        ],
+        "heights": [
+          0,
+          0
+        ],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_092_walk_0_0.png"
+          ]
+        ]
+      },
+      "94": {
+        "atlas": "/sprites/families/fam_094",
+        "objects": 2,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_094_0_0.png",
+            "/sprites/terrain/fam_094_0_1.png"
+          ],
+          [
+            "/sprites/terrain/fam_094_1_0.png",
+            "/sprites/terrain/fam_094_1_1.png"
+          ]
+        ],
+        "heights": [
+          0,
+          0
+        ],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_094_walk_0_0.png"
+          ]
+        ]
+      },
+      "101": {
+        "atlas": "/sprites/families/fam_101",
+        "objects": 8,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_101_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_101_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_101_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_101_3_0.png"
+          ]
+        ],
+        "heights": [
+          560,
+          480,
+          640,
+          16
+        ],
+        "sidewalk": []
+      },
+      "102": {
+        "atlas": "/sprites/families/fam_102",
+        "objects": 10,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_102_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_102_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_102_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_102_3_0.png"
+          ]
+        ],
+        "heights": [
+          880,
+          640,
+          800,
+          16
+        ],
+        "sidewalk": []
+      },
+      "103": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_103_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_103_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_103_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_103_3_0.png"
+          ]
+        ],
+        "heights": [
+          640,
+          720,
+          800,
+          16
+        ],
+        "sidewalk": []
+      },
+      "104": {
+        "atlas": "/sprites/families/fam_104",
+        "objects": 8,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_104_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_104_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_104_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_104_3_0.png"
+          ]
+        ],
+        "heights": [
+          800,
+          720,
+          720,
+          16
+        ],
+        "sidewalk": []
+      },
+      "105": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_105_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_105_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_105_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_105_3_0.png"
+          ]
+        ],
+        "heights": [
+          640,
+          720,
+          640,
+          16
+        ],
+        "sidewalk": []
+      },
+      "106": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_106_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_106_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_106_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_106_3_0.png"
+          ]
+        ],
+        "heights": [
+          560,
+          640,
+          640,
+          16
+        ],
+        "sidewalk": []
+      },
+      "107": {
+        "atlas": "/sprites/families/fam_107",
+        "objects": 4,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_107_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_107_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_107_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_107_3_0.png"
+          ]
+        ],
+        "heights": [
+          800,
+          640,
+          800,
+          16
+        ],
+        "sidewalk": []
+      },
+      "110": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_110_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_110_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_110_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_110_3_0.png"
+          ]
+        ],
+        "heights": [
+          960,
+          880,
+          800,
+          16
+        ],
+        "sidewalk": []
+      },
+      "111": {
+        "atlas": "/sprites/families/fam_111",
+        "objects": 1,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_111_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_111_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_111_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_111_3_0.png"
+          ]
+        ],
+        "heights": [
+          1120,
+          1200,
+          1200,
+          16
+        ],
+        "sidewalk": []
+      },
+      "112": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_112_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_112_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_112_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_112_3_0.png"
+          ]
+        ],
+        "heights": [
+          1200,
+          960,
+          800,
+          16
+        ],
+        "sidewalk": []
+      },
+      "113": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_113_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_113_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_113_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_113_3_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_113_4_0.png"
+          ]
+        ],
+        "heights": [
+          960,
+          880,
+          1120,
+          16,
+          960
+        ],
+        "sidewalk": []
+      },
+      "115": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_115_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_115_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_115_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_115_3_0.png"
+          ]
+        ],
+        "heights": [
+          800,
+          720,
+          960,
+          16
+        ],
+        "sidewalk": []
+      },
+      "116": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_116_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_116_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_116_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_116_3_0.png"
+          ]
+        ],
+        "heights": [
+          720,
+          800,
+          720,
+          16
+        ],
+        "sidewalk": []
+      },
+      "117": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_117_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_117_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_117_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_117_3_0.png"
+          ]
+        ],
+        "heights": [
+          800,
+          720,
+          720,
+          16
+        ],
+        "sidewalk": []
+      },
+      "118": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_118_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_118_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_118_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_118_3_0.png"
+          ]
+        ],
+        "heights": [
+          800,
+          960,
+          800,
+          16
+        ],
+        "sidewalk": []
+      },
+      "119": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_119_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_119_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_119_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_119_3_0.png"
+          ]
+        ],
+        "heights": [
+          800,
+          880,
+          800,
+          16
+        ],
+        "sidewalk": []
+      },
+      "120": {
+        "atlas": "/sprites/families/fam_120",
+        "objects": 8,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_120_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_120_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_120_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_120_3_0.png"
+          ]
+        ],
+        "heights": [
+          800,
+          800,
+          880,
+          16
+        ],
+        "sidewalk": []
+      },
+      "121": {
+        "atlas": "/sprites/families/fam_121",
+        "objects": 4,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_121_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_121_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_121_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_121_3_0.png"
+          ]
+        ],
+        "heights": [
+          720,
+          800,
+          880,
+          16
+        ],
+        "sidewalk": []
+      },
+      "122": {
+        "atlas": "/sprites/families/fam_122",
+        "objects": 3,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_122_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_122_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_122_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_122_3_0.png"
+          ]
+        ],
+        "heights": [
+          880,
+          720,
+          800,
+          16
+        ],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_122_walk_0_0.png",
+            "/sprites/terrain/fam_122_walk_0_1.png",
+            "/sprites/terrain/fam_122_walk_0_2.png",
+            "/sprites/terrain/fam_122_walk_0_3.png"
+          ]
+        ]
+      },
+      "123": {
+        "atlas": "/sprites/families/fam_123",
+        "objects": 2,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_123_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_123_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_123_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_123_3_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_123_4_0.png",
+            "/sprites/terrain/fam_123_4_1.png",
+            "/sprites/terrain/fam_123_4_2.png"
+          ]
+        ],
+        "heights": [
+          640,
+          640,
+          640,
+          16,
+          0
+        ],
+        "sidewalk": []
+      },
+      "124": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_124_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_124_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_124_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_124_3_0.png"
+          ]
+        ],
+        "heights": [
+          640,
+          640,
+          640,
+          16
+        ],
+        "sidewalk": []
+      },
+      "125": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_125_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_125_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_125_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_125_3_0.png"
+          ]
+        ],
+        "heights": [
+          640,
+          640,
+          640,
+          16
+        ],
+        "sidewalk": []
+      },
+      "127": {
+        "atlas": "/sprites/families/fam_127",
+        "objects": 5,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_127_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_127_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_127_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_127_3_0.png"
+          ]
+        ],
+        "heights": [
+          880,
+          880,
+          960,
+          16
+        ],
+        "sidewalk": []
+      },
+      "128": {
+        "atlas": "/sprites/families/fam_128",
+        "objects": 6,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_128_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_128_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_128_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_128_3_0.png"
+          ]
+        ],
+        "heights": [
+          960,
+          960,
+          960,
+          16
+        ],
+        "sidewalk": []
+      },
+      "144": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_144_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_144_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_144_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_144_3_0.png"
+          ]
+        ],
+        "heights": [
+          960,
+          720,
+          960,
+          16
+        ],
+        "sidewalk": []
+      },
+      "145": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_145_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_145_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_145_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_145_3_0.png"
+          ]
+        ],
+        "heights": [
+          960,
+          800,
+          880,
+          16
+        ],
+        "sidewalk": []
+      },
+      "148": {
+        "atlas": "/sprites/families/fam_148",
+        "objects": 7,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_148_walk_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_148_walk_1_0.png",
+            "/sprites/terrain/fam_148_walk_1_1.png",
+            "/sprites/terrain/fam_148_walk_1_2.png",
+            "/sprites/terrain/fam_148_walk_1_3.png"
+          ]
+        ]
+      },
+      "149": {
+        "atlas": "/sprites/families/fam_149",
+        "objects": 7,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "150": {
+        "atlas": "/sprites/families/fam_150",
+        "objects": 11,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_150_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_150_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_150_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_150_3_0.png"
+          ]
+        ],
+        "heights": [
+          800,
+          720,
+          720,
+          16
+        ],
+        "sidewalk": []
+      },
+      "151": {
+        "atlas": "/sprites/families/fam_151",
+        "objects": 12,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_151_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_151_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_151_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_151_3_0.png"
+          ]
+        ],
+        "heights": [
+          560,
+          640,
+          640,
+          16
+        ],
+        "sidewalk": []
+      },
+      "153": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_153_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_153_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_153_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_153_3_0.png"
+          ]
+        ],
+        "heights": [
+          640,
+          720,
+          800,
+          16
+        ],
+        "sidewalk": []
+      },
+      "154": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_154_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_154_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_154_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_154_3_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_154_4_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_154_5_0.png"
+          ]
+        ],
+        "heights": [
+          800,
+          480,
+          640,
+          640,
+          800,
+          16
+        ],
+        "sidewalk": []
+      },
+      "156": {
+        "atlas": "/sprites/families/fam_156",
+        "objects": 10,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_156_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_156_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_156_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_156_3_0.png"
+          ]
+        ],
+        "heights": [
+          880,
+          880,
+          720,
+          16
+        ],
+        "sidewalk": []
+      },
+      "158": {
+        "atlas": "/sprites/families/fam_158",
+        "objects": 10,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_158_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_158_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_158_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_158_3_0.png"
+          ]
+        ],
+        "heights": [
+          720,
+          720,
+          800,
+          16
+        ],
+        "sidewalk": []
+      },
+      "159": {
+        "atlas": "/sprites/families/fam_159",
+        "objects": 9,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_159_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_159_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_159_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_159_3_0.png"
+          ]
+        ],
+        "heights": [
+          800,
+          720,
+          800,
+          16
+        ],
+        "sidewalk": []
+      },
+      "160": {
+        "atlas": "/sprites/families/fam_160",
+        "objects": 10,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_160_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_160_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_160_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_160_3_0.png"
+          ]
+        ],
+        "heights": [
+          960,
+          800,
+          880,
+          16
+        ],
+        "sidewalk": []
+      },
+      "161": {
+        "atlas": "/sprites/families/fam_161",
+        "objects": 31,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_161_walk_0_0.png",
+            "/sprites/terrain/fam_161_walk_0_1.png",
+            "/sprites/terrain/fam_161_walk_0_2.png",
+            "/sprites/terrain/fam_161_walk_0_3.png"
+          ]
+        ]
+      },
+      "164": {
+        "atlas": "/sprites/families/fam_164",
+        "objects": 34,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_164_walk_0_0.png",
+            "/sprites/terrain/fam_164_walk_0_1.png",
+            "/sprites/terrain/fam_164_walk_0_2.png",
+            "/sprites/terrain/fam_164_walk_0_3.png"
+          ]
+        ]
+      },
+      "165": {
+        "atlas": "/sprites/families/fam_165",
+        "objects": 1,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_165_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_165_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_165_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_165_3_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_165_4_0.png"
+          ]
+        ],
+        "heights": [
+          960,
+          960,
+          880,
+          16,
+          720
+        ],
+        "sidewalk": []
+      },
+      "166": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_166_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_166_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_166_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_166_3_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_166_4_0.png"
+          ]
+        ],
+        "heights": [
+          960,
+          960,
+          1200,
+          16,
+          1200
+        ],
+        "sidewalk": []
+      },
+      "168": {
+        "atlas": "/sprites/families/fam_168",
+        "objects": 19,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "169": {
+        "atlas": "/sprites/families/fam_169",
+        "objects": 6,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "170": {
+        "atlas": "/sprites/families/fam_170",
+        "objects": 33,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_170_walk_0_0.png",
+            "/sprites/terrain/fam_170_walk_0_1.png",
+            "/sprites/terrain/fam_170_walk_0_2.png",
+            "/sprites/terrain/fam_170_walk_0_3.png"
+          ]
+        ]
+      },
+      "171": {
+        "atlas": "/sprites/families/fam_171",
+        "objects": 1,
+        "terrain": [
+          [
+            null
+          ],
+          [
+            "/sprites/terrain/fam_171_1_0.png",
+            "/sprites/terrain/fam_171_1_1.png",
+            "/sprites/terrain/fam_171_1_2.png"
+          ],
+          [
+            "/sprites/terrain/fam_171_2_0.png",
+            "/sprites/terrain/fam_171_2_1.png",
+            "/sprites/terrain/fam_171_2_2.png"
+          ],
+          [
+            null
+          ],
+          [
+            null
+          ],
+          [
+            "/sprites/terrain/fam_171_5_0.png",
+            "/sprites/terrain/fam_171_5_1.png",
+            "/sprites/terrain/fam_171_5_2.png"
+          ],
+          [
+            "/sprites/terrain/fam_171_6_0.png",
+            "/sprites/terrain/fam_171_6_1.png",
+            "/sprites/terrain/fam_171_6_2.png"
+          ]
+        ],
+        "heights": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_171_walk_0_0.png",
+            "/sprites/terrain/fam_171_walk_0_1.png",
+            "/sprites/terrain/fam_171_walk_0_2.png",
+            "/sprites/terrain/fam_171_walk_0_3.png"
+          ]
+        ]
+      },
+      "172": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_172_0_0.png",
+            "/sprites/terrain/fam_172_0_1.png"
+          ],
+          [
+            "/sprites/terrain/fam_172_1_0.png",
+            "/sprites/terrain/fam_172_1_1.png"
+          ]
+        ],
+        "heights": [
+          0,
+          0
+        ],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_172_walk_0_0.png"
+          ]
+        ]
+      },
+      "173": {
+        "atlas": "/sprites/families/fam_173",
+        "objects": 1,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_173_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_173_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_173_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_173_3_0.png",
+            "/sprites/terrain/fam_173_3_1.png",
+            "/sprites/terrain/fam_173_3_2.png"
+          ]
+        ],
+        "heights": [
+          800,
+          800,
+          800,
+          0
+        ],
+        "sidewalk": []
+      },
+      "174": {
+        "atlas": "/sprites/families/fam_174",
+        "objects": 8,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_174_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_174_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_174_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_174_3_0.png"
+          ]
+        ],
+        "heights": [
+          640,
+          640,
+          640,
+          16
+        ],
+        "sidewalk": []
+      },
+      "175": {
+        "atlas": "/sprites/families/fam_175",
+        "objects": 10,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_175_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_175_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_175_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_175_3_0.png"
+          ]
+        ],
+        "heights": [
+          640,
+          640,
+          640,
+          16
+        ],
+        "sidewalk": []
+      },
+      "177": {
+        "atlas": "/sprites/families/fam_177",
+        "objects": 2,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "179": {
+        "atlas": "/sprites/families/fam_179",
+        "objects": 1,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "182": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_182_0_0.png",
+            "/sprites/terrain/fam_182_0_1.png",
+            "/sprites/terrain/fam_182_0_2.png"
+          ],
+          [
+            null
+          ],
+          [
+            null
+          ],
+          [
+            "/sprites/terrain/fam_182_3_0.png",
+            "/sprites/terrain/fam_182_3_1.png",
+            "/sprites/terrain/fam_182_3_2.png"
+          ],
+          [
+            "/sprites/terrain/fam_182_4_0.png",
+            "/sprites/terrain/fam_182_4_1.png",
+            "/sprites/terrain/fam_182_4_2.png"
+          ]
+        ],
+        "heights": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "sidewalk": []
+      },
+      "183": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_183_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_183_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_183_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_183_3_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_183_4_0.png",
+            "/sprites/terrain/fam_183_4_1.png",
+            "/sprites/terrain/fam_183_4_2.png"
+          ],
+          [
+            "/sprites/terrain/fam_183_5_0.png",
+            "/sprites/terrain/fam_183_5_1.png",
+            "/sprites/terrain/fam_183_5_2.png"
+          ]
+        ],
+        "heights": [
+          960,
+          960,
+          1200,
+          16,
+          0,
+          0
+        ],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_183_walk_0_0.png",
+            "/sprites/terrain/fam_183_walk_0_1.png",
+            "/sprites/terrain/fam_183_walk_0_2.png",
+            "/sprites/terrain/fam_183_walk_0_3.png"
+          ],
+          [
+            "/sprites/terrain/fam_183_walk_1_0.png",
+            "/sprites/terrain/fam_183_walk_1_1.png",
+            "/sprites/terrain/fam_183_walk_1_2.png",
+            "/sprites/terrain/fam_183_walk_1_3.png"
+          ]
+        ]
+      },
+      "185": {
+        "atlas": "/sprites/families/fam_185",
+        "objects": 13,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_185_walk_0_0.png",
+            "/sprites/terrain/fam_185_walk_0_1.png",
+            "/sprites/terrain/fam_185_walk_0_2.png",
+            "/sprites/terrain/fam_185_walk_0_3.png"
+          ]
+        ]
+      },
+      "186": {
+        "atlas": "/sprites/families/fam_186",
+        "objects": 11,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_186_walk_0_0.png",
+            "/sprites/terrain/fam_186_walk_0_1.png",
+            "/sprites/terrain/fam_186_walk_0_2.png",
+            "/sprites/terrain/fam_186_walk_0_3.png"
+          ]
+        ]
+      },
+      "191": {
+        "atlas": "/sprites/families/fam_191",
+        "objects": 24,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "192": {
+        "atlas": "/sprites/families/fam_192",
+        "objects": 14,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "193": {
+        "atlas": "/sprites/families/fam_193",
+        "objects": 16,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "194": {
+        "atlas": "/sprites/families/fam_194",
+        "objects": 3,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "195": {
+        "atlas": "/sprites/families/fam_195",
+        "objects": 3,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_195_0_0.png",
+            "/sprites/terrain/fam_195_0_1.png",
+            "/sprites/terrain/fam_195_0_2.png"
+          ],
+          [
+            "/sprites/terrain/fam_195_1_0.png",
+            "/sprites/terrain/fam_195_1_1.png",
+            "/sprites/terrain/fam_195_1_2.png"
+          ],
+          [
+            "/sprites/terrain/fam_195_2_0.png",
+            "/sprites/terrain/fam_195_2_1.png",
+            "/sprites/terrain/fam_195_2_2.png"
+          ],
+          [
+            null
+          ]
+        ],
+        "heights": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_195_walk_0_0.png",
+            null,
+            "/sprites/terrain/fam_195_walk_0_2.png"
+          ]
+        ]
+      },
+      "196": {
+        "atlas": "/sprites/families/fam_196",
+        "objects": 15,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "197": {
+        "atlas": "/sprites/families/fam_197",
+        "objects": 22,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "199": {
+        "atlas": "/sprites/families/fam_199",
+        "objects": 20,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "202": {
+        "atlas": "/sprites/families/fam_202",
+        "objects": 34,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_202_walk_0_0.png",
+            "/sprites/terrain/fam_202_walk_0_1.png",
+            "/sprites/terrain/fam_202_walk_0_2.png",
+            "/sprites/terrain/fam_202_walk_0_3.png"
+          ]
+        ]
+      },
+      "203": {
+        "atlas": "/sprites/families/fam_203",
+        "objects": 3,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_203_0_0.png",
+            "/sprites/terrain/fam_203_0_1.png",
+            "/sprites/terrain/fam_203_0_2.png"
+          ],
+          [
+            "/sprites/terrain/fam_203_1_0.png",
+            "/sprites/terrain/fam_203_1_1.png",
+            "/sprites/terrain/fam_203_1_2.png"
+          ],
+          [
+            "/sprites/terrain/fam_203_2_0.png",
+            "/sprites/terrain/fam_203_2_1.png",
+            "/sprites/terrain/fam_203_2_2.png"
+          ]
+        ],
+        "heights": [
+          0,
+          0,
+          0
+        ],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_203_walk_0_0.png",
+            null,
+            "/sprites/terrain/fam_203_walk_0_2.png"
+          ]
+        ]
+      },
+      "220": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_220_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_220_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_220_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_220_3_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_220_4_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_220_5_0.png"
+          ]
+        ],
+        "heights": [
+          880,
+          960,
+          960,
+          880,
+          960,
+          16
+        ],
+        "sidewalk": []
+      },
+      "221": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_221_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_221_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_221_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_221_3_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_221_4_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_221_5_0.png"
+          ]
+        ],
+        "heights": [
+          800,
+          720,
+          1040,
+          560,
+          640,
+          16
+        ],
+        "sidewalk": []
+      },
+      "223": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_223_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_223_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_223_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_223_3_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_223_4_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_223_5_0.png"
+          ]
+        ],
+        "heights": [
+          640,
+          640,
+          640,
+          640,
+          640,
+          16
+        ],
+        "sidewalk": []
+      },
+      "224": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_224_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_224_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_224_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_224_3_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_224_4_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_224_5_0.png"
+          ]
+        ],
+        "heights": [
+          960,
+          1200,
+          1120,
+          1200,
+          880,
+          16
+        ],
+        "sidewalk": []
+      },
+      "225": {
+        "atlas": "/sprites/families/fam_225",
+        "objects": 1,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_225_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_225_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_225_2_0.png"
+          ]
+        ],
+        "heights": [
+          800,
+          720,
+          16
+        ],
+        "sidewalk": []
+      },
+      "226": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_226_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_226_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_226_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_226_3_0.png"
+          ]
+        ],
+        "heights": [
+          640,
+          640,
+          640,
+          16
+        ],
+        "sidewalk": []
+      },
+      "228": {
+        "atlas": "/sprites/families/fam_228",
+        "objects": 2,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "230": {
+        "atlas": "/sprites/families/fam_230",
+        "objects": 2,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_230_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_230_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_230_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_230_3_0.png"
+          ]
+        ],
+        "heights": [
+          960,
+          800,
+          880,
+          16
+        ],
+        "sidewalk": []
+      },
+      "231": {
+        "atlas": "/sprites/families/fam_231",
+        "objects": 2,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_231_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_231_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_231_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_231_3_0.png"
+          ]
+        ],
+        "heights": [
+          800,
+          960,
+          800,
+          16
+        ],
+        "sidewalk": []
+      },
+      "234": {
+        "atlas": "/sprites/families/fam_234",
+        "objects": 25,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "235": {
+        "atlas": "/sprites/families/fam_235",
+        "objects": 27,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "240": {
+        "atlas": "/sprites/families/fam_240",
+        "objects": 20,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "241": {
+        "atlas": "/sprites/families/fam_241",
+        "objects": 32,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_241_walk_0_0.png",
+            "/sprites/terrain/fam_241_walk_0_1.png",
+            "/sprites/terrain/fam_241_walk_0_2.png",
+            "/sprites/terrain/fam_241_walk_0_3.png"
+          ]
+        ]
+      },
+      "242": {
+        "atlas": "/sprites/families/fam_242",
+        "objects": 1,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_242_0_0.png",
+            "/sprites/terrain/fam_242_0_1.png"
+          ],
+          [
+            "/sprites/terrain/fam_242_1_0.png",
+            "/sprites/terrain/fam_242_1_1.png"
+          ]
+        ],
+        "heights": [
+          0,
+          0
+        ],
+        "sidewalk": [
+          [
+            "/sprites/terrain/fam_242_walk_0_0.png"
+          ]
+        ]
+      },
+      "243": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_243_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_243_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_243_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_243_3_0.png"
+          ]
+        ],
+        "heights": [
+          800,
+          720,
+          720,
+          16
+        ],
+        "sidewalk": []
+      },
+      "244": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_244_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_244_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_244_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_244_3_0.png"
+          ]
+        ],
+        "heights": [
+          560,
+          640,
+          640,
+          16
+        ],
+        "sidewalk": []
+      },
+      "245": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_245_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_245_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_245_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_245_3_0.png"
+          ]
+        ],
+        "heights": [
+          1120,
+          1200,
+          1200,
+          16
+        ],
+        "sidewalk": []
+      },
+      "246": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_246_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_246_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_246_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_246_3_0.png"
+          ]
+        ],
+        "heights": [
+          960,
+          880,
+          800,
+          16
+        ],
+        "sidewalk": []
+      },
+      "247": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_247_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_247_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_247_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_247_3_0.png"
+          ]
+        ],
+        "heights": [
+          640,
+          720,
+          640,
+          16
+        ],
+        "sidewalk": []
+      },
+      "248": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_248_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_248_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_248_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_248_3_0.png"
+          ]
+        ],
+        "heights": [
+          800,
+          640,
+          800,
+          16
+        ],
+        "sidewalk": []
+      },
+      "249": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_249_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_249_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_249_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_249_3_0.png"
+          ]
+        ],
+        "heights": [
+          800,
+          720,
+          960,
+          16
+        ],
+        "sidewalk": []
+      },
+      "250": {
+        "atlas": "/sprites/families/fam_250",
+        "objects": 13,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "251": {
+        "atlas": "/sprites/families/fam_251",
+        "objects": 10,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "252": {
+        "atlas": "/sprites/families/fam_252",
+        "objects": 16,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "253": {
+        "atlas": "/sprites/families/fam_253",
+        "objects": 11,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "254": {
+        "atlas": "/sprites/families/fam_254",
+        "objects": 23,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "255": {
+        "atlas": "/sprites/families/fam_255",
+        "objects": 24,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "256": {
+        "atlas": "/sprites/families/fam_256",
+        "objects": 12,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "257": {
+        "atlas": "/sprites/families/fam_257",
+        "objects": 21,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "258": {
+        "atlas": "/sprites/families/fam_258",
+        "objects": 29,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "259": {
+        "atlas": "/sprites/families/fam_259",
+        "objects": 22,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "260": {
+        "atlas": "/sprites/families/fam_260",
+        "objects": 25,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "261": {
+        "atlas": "/sprites/families/fam_261",
+        "objects": 11,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "262": {
+        "atlas": "/sprites/families/fam_262",
+        "objects": 20,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "264": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_264_0_0.png",
+            "/sprites/terrain/fam_264_0_1.png",
+            "/sprites/terrain/fam_264_0_2.png"
+          ]
+        ],
+        "heights": [
+          0
+        ],
+        "sidewalk": []
+      },
+      "265": {
+        "atlas": "/sprites/families/fam_265",
+        "objects": 2,
+        "terrain": [],
+        "heights": [],
+        "sidewalk": []
+      },
+      "268": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_268_0_0.png",
+            "/sprites/terrain/fam_268_0_1.png",
+            "/sprites/terrain/fam_268_0_2.png"
+          ]
+        ],
+        "heights": [
+          0
+        ],
+        "sidewalk": []
+      },
+      "269": {
+        "atlas": "",
+        "objects": 0,
+        "terrain": [
+          [
+            "/sprites/terrain/fam_269_0_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_269_1_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_269_2_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_269_3_0.png"
+          ],
+          [
+            "/sprites/terrain/fam_269_4_0.png"
+          ]
+        ],
+        "heights": [
+          800,
+          640,
+          880,
+          800,
+          16
+        ],
+        "sidewalk": []
+      }
+    },
+    "global": {
+      "PLAIN": "/sprites/global/cel_06_plain.png",
+      "CEL 1": "/sprites/global/cel_01_plain.png",
+      "WHITE": "/sprites/global/cel_02_white.png",
+      "CEL 2": "/sprites/global/cel_02_white.png",
+      "YELLOW": "/sprites/global/cel_03_yellow.png",
+      "CEL 3": "/sprites/global/cel_03_yellow.png",
+      "START160": "/sprites/global/cel_04_start160.png",
+      "CEL 4": "/sprites/global/cel_04_start160.png",
+      "START162": "/sprites/global/cel_05_start162.png",
+      "CEL 5": "/sprites/global/cel_05_start162.png",
+      "CEL 6": "/sprites/global/cel_06_plain.png",
+      "SIDCRSS0": "/sprites/global/cel_07_sidcrss0.png",
+      "CEL 7": "/sprites/global/cel_07_sidcrss0.png",
+      "SIDLANE0": "/sprites/global/cel_08_sidlane0.png",
+      "CEL 8": "/sprites/global/cel_08_sidlane0.png",
+      "SIDLANE1": "/sprites/global/cel_09_sidlane1.png",
+      "CEL 9": "/sprites/global/cel_09_sidlane1.png",
+      "FINISH": "/sprites/global/cel_10_finish.png",
+      "CEL 10": "/sprites/global/cel_10_finish.png",
+      "STOP3E": "/sprites/global/cel_11_stop3e.png",
+      "CEL 11": "/sprites/global/cel_11_stop3e.png",
+      "STOP3G": "/sprites/global/cel_12_stop3g.png",
+      "CEL 12": "/sprites/global/cel_12_stop3g.png",
+      "STOP3Y": "/sprites/global/cel_13_stop3y.png",
+      "CEL 13": "/sprites/global/cel_13_stop3y.png",
+      "STOP3R": "/sprites/global/cel_14_stop3r.png",
+      "CEL 14": "/sprites/global/cel_14_stop3r.png",
+      "SHADOW2": "/sprites/global/cel_15_shadow2.png",
+      "CEL 15": "/sprites/global/cel_15_shadow2.png",
+      "WATER128": "/sprites/global/cel_16_water128.png",
+      "CEL 16": "/sprites/global/cel_16_water128.png",
+      "SEA128": "/sprites/global/cel_17_sea128.png",
+      "CEL 17": "/sprites/global/cel_17_sea128.png"
+    },
+    "cars": {
+      "CANYN": "/sprites/cars/canyn",
+      "CITY": "/sprites/cars/city",
+      "HIWAY": "/sprites/cars/hiway",
+      "MEDLY": "/sprites/cars/medly",
+      "NAPA": "/sprites/cars/napa"
+    },
+    "horizons": {
+      "CITY": "/images/horizon_city.png",
+      "NAPA": "/images/horizon_napa.png",
+      "PCH": "/images/horizon_pch.png",
+      "PENIN": "/images/horizon_penin.png",
+      "SIERRA": "/images/horizon_sierra.png"
+    },
+    "dashboards": {
+      "RAT": "/images/dash_rat.png",
+      "SPORT": "/images/dash_sport.png",
+      "SUPER": "/images/dash_super.png"
+    },
+    "meter": "/images/meter.png",
+    "clouds": [
+      "/images/cloud_big.png",
+      "/images/cloud_small.png"
+    ],
+    "roof": "#181818"
+  },
+  "physics": "/data/physics.json",
+  "strings": "/data/strings.json"
+}
