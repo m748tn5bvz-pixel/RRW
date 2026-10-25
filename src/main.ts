@@ -17,6 +17,7 @@ import { Buildings } from "./buildings.ts";
 import { CAR, CAR_UNITS_PER_PIXEL, CROSS_LEFT, ONCOMING, Traffic, type Car, type CarModel, type LaneInfo } from "./traffic.ts";
 import { CrossStreets, Signals, SignalSprites } from "./crossing.ts";
 import { Menu, THRASH_COURSES } from "./menu.ts";
+import { asset, withBase } from "./paths.ts";
 
 // Escala de la vista: 64 unidades del juego = 1 unidad de escena.
 const U = 64;
@@ -69,6 +70,7 @@ function layoutOverlays() {
   dash.scale.set(640 * s, 121 * s, 1);
   hud.layout(W, H);
 }
+
 
 const scene = new THREE.Scene();
 const sky = new THREE.Color(0x8fb8de);
@@ -1191,11 +1193,11 @@ async function startAudio(manifest: { audio: string[] }) {
   await audio.resume();
   const cls = PLAYER_BIKE < 5 ? "ENGRAT" : PLAYER_BIKE < 10 ? "ENGSPORT" : "ENGSUPER";
   playerEngine = cls;
-  await audio.loadEngine(cls, `/audio/effects/${cls.toLowerCase()}.wav`, physics.engines[cls]);
-  await audio.loadEngine("ENGOTHER", "/audio/effects/engother.wav", physics.engines.ENGOTHER);
-  if (physics.engines.ENGCAR11) await audio.loadEngine("ENGCAR11", "/audio/effects/engcar11.wav", physics.engines.ENGCAR11);
-  if (physics.engines.SIREN) await audio.loadEngine("SIREN", "/audio/effects/siren.wav", physics.engines.SIREN);
-  await Promise.all(EFFECTS.map((e) => audio.loadEffect(e, `/audio/effects/${e}.wav`)));
+  await audio.loadEngine(cls, asset(`/audio/effects/${cls.toLowerCase()}.wav`), physics.engines[cls]);
+  await audio.loadEngine("ENGOTHER", asset("/audio/effects/engother.wav"), physics.engines.ENGOTHER);
+  if (physics.engines.ENGCAR11) await audio.loadEngine("ENGCAR11", asset("/audio/effects/engcar11.wav"), physics.engines.ENGCAR11);
+  if (physics.engines.SIREN) await audio.loadEngine("SIREN", asset("/audio/effects/siren.wav"), physics.engines.SIREN);
+  await Promise.all(EFFECTS.map((e) => audio.loadEffect(e, asset(`/audio/effects/${e}.wav`))));
   attachEngines();
   audio.setTracks(manifest.audio.filter((u) => u.includes("/audio/music/")));
 }
@@ -1213,7 +1215,7 @@ function raceMusic(k = raceSong) {
   if (!audioStarted) return;
   raceSong = k;
   const n = k + 1;
-  void audio.raceMusic(`/audio/music/sbkgrng${n}.mid`, [[1, "/audio/music/rrdrums.sf2"], [2, `/audio/music/grunge${n}.sf2`]])
+  void audio.raceMusic(asset(`/audio/music/sbkgrng${n}.mid`), [[1, asset("/audio/music/rrdrums.sf2")], [2, asset(`/audio/music/grunge${n}.sf2`)]])
     .then((name) => { if (name) $("music").textContent = name; });
 }
 const courseSong = () => Math.max(0, THRASH_COURSES.findIndex((c) => c.name === currentEntry?.name));
@@ -1524,13 +1526,14 @@ async function start() {
   let manifest: { courses: CourseEntry[]; sprites?: SpriteManifest; physics?: string; audio: string[]; images: string[]; videos: string[]; font?: string; menuFonts?: Record<string, string>; strings?: string };
   
   try {
-    const response = await fetch(`${import.meta.env.BASE_URL}manifest.json`);
+    const response = await fetch(asset("manifest.json"));
 
     if (!response.ok) {
       throw new Error(`Error cargando manifest.json: ${response.status}`);
     }
 
-    manifest = await response.json();
+    // Las rutas del manifiesto son absolutas desde assets/: se les pone la base de Vite (src/paths.ts).
+    manifest = withBase(await response.json());
   } catch (error) {
     console.error("No se pudo cargar el manifiesto:", error);
     $("error").style.display = "grid";
@@ -1541,8 +1544,15 @@ async function start() {
   mediaRef.videos = manifest.videos ?? [];
   mediaRef.images = manifest.images ?? [];
   sprites = manifest.sprites ?? null;
-  if (!sprites || !manifest.physics) { $("error").style.display = "grid"; return; }
-  strings = manifest.strings ? await (await fetch(manifest.strings)).json() : {};
+  
+  if (!sprites || !manifest.physics) {
+    $("error").style.display = "grid";
+    return;
+  }
+
+  strings = manifest.strings
+    ? await (await fetch(manifest.strings)).json()
+    : {};
   // Presentación (SPLASH.RRI) mientras carga; luego Intro y la pantalla principal (src/menu.ts).
   menu = new Menu($("menu"), {
     strings,
@@ -1552,6 +1562,7 @@ async function start() {
     fonts: { badloc: manifest.font, ...manifest.menuFonts },
   });
   menu.splash(strings[0xce] ?? "");
+  
   physics = (await (await fetch(manifest.physics)).json()) as PhysicsData;
   if (!physics.grid) { $("error").style.display = "grid"; return; }
   menu.data.miles = physics.courseMiles ?? [];

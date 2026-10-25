@@ -26,6 +26,8 @@
 // [I] Modo Tope y Mano-À-Mano se ven inactivos (el port no los tiene). Lavabos solo deja elegir el nivel
 //     ("Nivel del Jugador") y volver ("Ya está"); el original es un diálogo con más opciones.
 
+import { asset } from "./paths.ts";
+
 export interface MenuData {
   strings: Record<string, string>;
   images: string[];
@@ -121,7 +123,7 @@ export class Menu {
   }
 
   private str(id: number) { return (this.data.strings[id] ?? "").replace(/\r/g, ""); }
-  private img(path: string) { return this.data.images.find((u) => u.toLowerCase() === path.toLowerCase()) ?? path; }
+  private img(path: string) { const url = asset(path); return this.data.images.find((u) => u.toLowerCase() === url.toLowerCase()) ?? url; }
 
   show() { this.root.style.display = "block"; }
   hide() { this.root.style.display = "none"; this.layer.textContent = ""; this.screen = null; }
