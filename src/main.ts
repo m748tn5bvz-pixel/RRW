@@ -1522,12 +1522,21 @@ async function start() {
   $("backend").textContent = backend.isWebGPUBackend ? "WebGPU" : "WebGL2 (respaldo)";
 
   let manifest: { courses: CourseEntry[]; sprites?: SpriteManifest; physics?: string; audio: string[]; images: string[]; videos: string[]; font?: string; menuFonts?: Record<string, string>; strings?: string };
+  
   try {
-    manifest = await (await fetch("/manifest.json")).json();
-  } catch {
+    const response = await fetch(`${import.meta.env.BASE_URL}manifest.json`);
+
+    if (!response.ok) {
+      throw new Error(`Error cargando manifest.json: ${response.status}`);
+    }
+
+    manifest = await response.json();
+  } catch (error) {
+    console.error("No se pudo cargar el manifiesto:", error);
     $("error").style.display = "grid";
     return;
   }
+
   manifestRef = manifest;
   mediaRef.videos = manifest.videos ?? [];
   mediaRef.images = manifest.images ?? [];
